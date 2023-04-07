@@ -50,6 +50,16 @@ html, body {
 .elephantImage {
     width: 50%;
 }
+.elephantImage_ghost {
+    width: 50%;
+    position: fixed;
+    top: 40%;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+}
+.elephantImage_ghost.hide {
+    opacity: 0;
+}
 .eneaMenu {
     margin-top: 20%;
     margin-bottom: 0;
@@ -71,7 +81,7 @@ html, body {
     margin-bottom: 0;
 }
 .subtitle {
-    font-size: 32px;
+    font-size: 48px;
 }
 h1 {
     font-size: 90px;
