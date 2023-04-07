@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Mango-smoothie';
+    src: url(DK_Mango_Smoothie.otf);
+}
+html, body {
+    margin: 0;
+}
+#logo {
+    margin: 0;
+}
+.elephant-space {
+    height: 35vh;
+}
+.wrapper {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mango-smoothie';
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin: 12px 0;
+    padding: 0 12px;
+}
