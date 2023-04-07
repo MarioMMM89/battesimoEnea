@@ -35,13 +35,17 @@ html, body {
 .container {
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     width: 100%;
     margin: 12px 0;
     color: #a4968e;
-    width: 80%;
+    width: 75%;
     align-self: center;
+}
+.container p {
+    margin-bottom: 62px;
+    margin-top: 0;
 }
 .elephantImage {
     width: 50%;
@@ -54,15 +58,21 @@ html, body {
 }
 .title-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 48px;
 }
 .title-wrapper p {
-    margin-left: 18px;
+   margin: 0;
 }
 .title {
     color: #d89360;
+    margin-bottom: 0;
+}
+.subtitle {
+    font-size: 32px;
 }
 h1 {
-    font-size: 60px;
+    font-size: 90px;
 }
