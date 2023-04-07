@@ -8,11 +8,19 @@ html, body {
 #logo {
     margin: 0;
 }
-.elephant-space {
-    height: 35vh;
+.frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url("sfondoMenuEnea.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .wrapper {
-    background-color: aliceblue;
     width: 100%;
     height: 100%;
     display: flex;
@@ -21,12 +29,40 @@ html, body {
     justify-content: center;
     font-family: 'Mango-smoothie';
 }
+.container-spacer {
+    width: 50%;
+}
 .container {
     display: flex;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     width: 100%;
     margin: 12px 0;
-    padding: 0 12px;
+    color: #a4968e;
+    width: 80%;
+    align-self: center;
+}
+.elephantImage {
+    width: 50%;
+}
+.eneaMenu {
+    margin-top: 20%;
+    margin-bottom: 0;
+    font-size: 80px;
+    color: #d89360;
+}
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-wrapper p {
+    margin-left: 18px;
+}
+.title {
+    color: #d89360;
+}
+h1 {
+    font-size: 60px;
 }
