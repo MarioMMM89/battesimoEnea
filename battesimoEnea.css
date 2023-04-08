@@ -47,6 +47,9 @@ html, body {
     margin-bottom: 62px;
     margin-top: 0;
 }
+.container:last-child p {
+    margin-bottom: 12px;
+}
 .elephantImage {
     width: 50%;
 }
@@ -85,4 +88,8 @@ html, body {
 }
 h1 {
     font-size: 90px;
+}
+.drink-spacer {
+    width: 9%;
+    margin: -12px auto 12px;
 }
